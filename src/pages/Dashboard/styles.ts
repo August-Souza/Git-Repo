@@ -49,7 +49,7 @@ export const Repositories = styled.div`
   margin-top: 80px;
   max-width: 700px;
 
-  a{
+  a {
     background: #fff;
     border-radius: 5px;
     width: 100%100%;
@@ -66,7 +66,7 @@ export const Repositories = styled.div`
     }
 
     &:hover {
-      transform: translateX(10px)
+      transform: translateX(10px);
     }
 
     img {
@@ -76,6 +76,7 @@ export const Repositories = styled.div`
     }
 
     div {
+      flex: 1;
       margin-left: 16px;
 
       strong {
